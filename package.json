@@ -1,0 +1,23 @@
+{
+  "name": "mytools",
+  "version": "1.0.0",
+  "description": "Signature Generator for JWT Token",
+  "main": "generateKeys.js",
+  "scripts": {
+    "start" : "node generateKeys.js",
+    "16": "set LEN=16&& npm start",
+    "32": "set LEN=32&& npm start",
+    "64": "set LEN=64&& npm start"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.3"
+  },
+  "engines": {
+    "node" : "18"
+  }
+}
